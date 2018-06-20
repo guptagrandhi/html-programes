@@ -1,0 +1,74 @@
+body
+{
+font: medium/1.2em Verdana, Times NEw Roman, "Arial";
+}
+h1,h2
+{
+color: #4EA4DA;
+font-size: 120%; 
+}
+.guarantee
+{
+background-image: URl(canva-photo-editor.png);
+background-repeat: no-repeat;
+font-style: italic;
+font-weight: bold;
+background-color:  #A7CECE;
+border: 2px dashed white;
+padding: 10px 20px 20px 140px;
+margin: 30px;
+margin-right: 30px;
+margin-left: 10px;
+line-height: 1.2;
+width:50%;
+}
+
+#elixir
+{
+border: thin solid #00FFF9;
+padding: 10px 20px 30px 30px;
+text-align: center;
+margin-left: 25px;
+margin-top: 100px;
+margin-bottom: 50px;
+margin-right: 50px;
+background-image: URL(glass.jpeg);
+background-repeat: repeat-X;
+background-size: 30px;
+width:250px;
+float: right;
+height:auto;
+}
+#footer
+{
+text-align: center;	
+font-style: italic;
+font-weight: lighter;	
+font-size: 54%;
+line-height: normal;
+}
+
+#c
+{
+color: red;
+font: italic small/1.2em sans-serif;
+
+}
+a:link
+{color: blue;
+}
+a:visited
+{
+color: red;
+}
+a:hover
+{
+color: green;
+background: pink;
+
+}
+a:active
+{
+color: grey;
+}
+

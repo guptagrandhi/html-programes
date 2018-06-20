@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head><title> Starbuzz Machine</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="access.css">
+<body>
+	
+	<h1>The Starbuzz Bean Machine</h1>
+<h2>Fill out the form below and click "order now" to order</h2>
+<form action="#" method="POST">
+<fieldset>
+	
+	<legend> Order details</legend>
+	<div class="tablerow">
+		<label for="beans">	
+			choose your beans:
+			</label>
+	<select id="beans" name="coffee">
+		<option value="House Blend">House Blend</option>
+		<option value="Bolivia"> Shade Grown Bolivia Supremo</option>
+		<option value="Guatemala"> Organic Guatemalaz</option>
+		<option value="Kenya"> Kenya</option>
+		</select>
+		</div>
+		<div class="tablerow">
+			<label for type> Type:</label>
+			<p>
+				<input type="radio" id="whole_bean_type" name="beantype" value="whole bean">
+				<label for="whole_bean_type">Whole bean</label><br>
+				<input type="radio" id="ground_bean_type" name="beantype" value="Ground">
+				<label for="ground_type_bean">Ground</label></p>
+				</div>
+<div class="tablerow">
+	<label for="bag">No of bags</label>
+	
+	<input type="number" min="1" max="7">
+</div>
+<div class="tablerow">
+	<label for="date"> Must arrive by date:</label>
+	<input type="date" name="date">
+	</div>
+	<div class="tablerow">
+		<p>
+		<label for Extras> Extras:</label>
+		<input type="checkbox" id="giftwrap_extras" name="extras[]" value="Gift Wrap">
+		<label for="giftwrap_extras"> Gift Wrap</label><br>
+		<input type="checkbox" id="catalog_extras" name="extras[]" value="Catlog" checked>
+		<label for="catalog_extras">Including catlog with order</label>
+		</p>
+</div>
+
+</fieldset>
+<fieldset>
+	<legend>Ship To</legend>
+	<div class="tablerow">
+		<label for="name">Name:</label>
+		<input type="text" id="name" value="" placeholder="India" required>
+		</div>
+		<div class="tablerow">
+		<label for="address">Address:</label>
+		<input type="text" id="address" value="" placeholder="Your Address" required>
+		</div>
+		<div class="tablerow">
+		<label for="city">City:</label>
+		<input type="text" id="city" value="" placeholder="Hyderabad" required>
+		</div>
+		<div class="tablerow">
+		<label for="zip">Zip:</label>
+		<input type="text" id="zip" value="" placeholder="96608" required>
+		</div>
+		<div class="tablerow">
+		<label for="comment">Comment:</label>
+		<input type="text" id="Comment" value="" name="text" required>
+		</div>
+		<div class="tablerow">
+		<label></label>
+		<input type="submit" name="order" value="Order Now">
+		</div>
+		</fieldset>
+		</body>
+		</html>

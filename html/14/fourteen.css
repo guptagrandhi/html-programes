@@ -1,0 +1,123 @@
+body
+{
+background-color: #b5a789;
+font-size: 100%;
+font-family: sans-serif;
+font-style: italic;
+margin: 0px;
+}
+header.top
+{
+background-color: #675c47;
+margin: 10px 20px 10px 0px;
+height: 90%;
+}
+header.top img#logo
+{
+float: right;
+}
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+section#drinks {
+    display: table-cell;
+    background-color: #efe5d0;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+}
+section#drinks, section#main
+{
+display: table-cell;
+background-image: URL(background.gif) bottom right;
+font-size: 105%;
+padding: 15px;
+vertical-align: top;
+}
+
+aside
+{
+display: table-cell;
+font-size: 100%;
+text-align: center;
+margin: 0px 20px 10px 10px;
+font-size: 100%;
+padding: 15px;
+}
+h1
+{
+color:#954b4b;
+font-size: 100%;
+}
+h2 { font-size: 100%;}
+
+#logo { color: #954b4b; }
+
+.beanheading {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+a: link
+{
+color: blue;
+text-decoration: none;
+border-bottom:    thin dotted #b76666;
+}
+
+a: visited
+{
+
+color: red;
+text-decoration: none;
+border-bottom:    thin dotted #b76666;
+
+}
+
+nav
+{
+background-color: #efe5d0;
+font-size: 100%;
+margin: 0px 10px 20px 20px;
+}
+nav ul 
+{
+margin: 0px;
+list-style-type: none;
+padding: 15px;
+}
+nav ul li
+{ 
+display: inline;
+padding: 15px;
+}
+nav ul li a: link, a: visited
+{
+color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+}
+nav ul li.selected {
+	background-color: #c8b99c;
+}
+footer {
+  background-color: #675c47;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+}
+
+header.top img#headerSlogan
+{
+float: right;
+}
+

@@ -1,0 +1,72 @@
+body
+{
+background-color: #b5a789;
+font-style: italic;
+font-family: sans-serif, "airal", Times;
+font-size: small;
+line-height: 1.2em;
+margin: 0px;
+}
+#header
+{
+background-color: #675c47;
+margin: 10px;
+height: 108%;
+}
+.main
+{
+background-image: URL(background.gif);
+margin: 0px 10px 20px 10px;
+padding: 12px;
+font-size: 102%;
+}
+.coffee
+{
+
+font-size: 100%;
+font-style: italic;
+margin: 0px;
+height: 100%;
+text-align: center;
+}
+.bean
+{
+text-align: center;
+margin: 0px;
+text-height: 1.2em;
+padding: 10px;
+height: 100%;
+background-image: URL(background.gif);
+
+}
+a:link {
+  color:            #B76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+h1,h2
+{
+color:  #954b4b;
+font-size: 105%;		
+}
+#footer
+{
+text-align: center;
+text-decoration: none;
+height: 105%;
+font-weight: small;
+background-color: #675c47;
+color: #efe5d0;
+font-size: 80%;
+}
+.specials
+{
+color: #efe5d0;
+font-size: 100%;
+font-family: serif;
+}

@@ -1,0 +1,111 @@
+body
+{
+font-family: sans-serif;
+background-color: #b5a789;
+margin: 0px;
+font-size: 107%;
+
+}
+#header {
+	background-color: #675c47;
+	margin: 10px 10px 0px 10px;
+	height: 108px;
+	}
+#header img#logo
+{
+float: right;
+}
+#award {
+	position: absolute;
+	top: 30px;
+	left: 365px;
+}
+
+#coupon {
+    position: fixed;
+	top: 350px;
+	left: -90px;
+	}
+
+#coupon a, img
+{
+border: none;
+}
+
+#tablecontainer
+{
+display: table;
+border-spacing: 10px;
+border: 10px 10px 55px;
+}
+#tablerow
+{
+display: table-row;
+}
+#drinks
+{
+display: table-cell;
+vertical-align: top;
+padding: 15px;
+width: 50%;
+}
+
+#main
+{
+background-image: #efe5d0 URL(background.gif) bottom right;
+display: table-cell;
+font-size: 105%;
+padding: 10px;
+vertical-align: top;	
+}
+.bean
+ {
+  display: table-cell;
+  background:       #efe5d0 url(images/background.gif) bottom right;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+#footer {
+  background-color: #675c47;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+}
+
+h2 {
+  font-size:        120%;
+  color:            #954b4b;
+}
+
+a: link
+{
+color: blue;
+text-decoration:  none;
+ border-bottom:    thin dotted #b76666;
+
+}
+a: visited
+{
+color: red;
+text-decoration:  none;
+border-bottom:    thin dotted #b76666;
+
+}
+.bean
+{
+text-align: center;
+font-size: 100%;
+}
+#logo { color: #954b4b; }
+
+
+
+
+
+
+
+
+
