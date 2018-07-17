@@ -1,0 +1,46 @@
+body
+{
+background-color: black;
+font-size: 120%;
+width: 100%;
+text-height:1.2em;
+color: white;
+font-style: italic;
+line-height: 1;
+background-attachment: scroll;
+}
+.jupiter
+{
+font-family:arial, Times New Roman;	
+font-size: 150%;
+border: 10px 20px 30px 40px;
+border-color: solid white;
+}
+caption
+{
+font-style: italic	;
+font-size: 100%;
+font-weight: 300;
+}
+
+h1,h2
+{
+font-style: italic;
+font-weight: bolder;
+
+}
+tbody
+{
+background-color: grey;
+}
+th	
+{
+background: green;
+}
+
+
+
+
+
+
+
